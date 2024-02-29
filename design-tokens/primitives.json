@@ -1,70 +1,110 @@
 {
-  "Primitives/Primitives": {
-    "colour": {
-      "green": {
-        "100": {
-          "value": "#e3edeb",
-          "type": "color",
-          "parent": "Primitives/Primitives",
-          "description": ""
-        },
-        "200": {
-          "value": "#cfe0dc",
-          "type": "color",
-          "parent": "Primitives/Primitives",
-          "description": ""
-        },
-        "300": {
-          "value": "#bbd3cd",
-          "type": "color",
-          "parent": "Primitives/Primitives",
-          "description": ""
-        },
-        "400": {
-          "value": "#91b8ae",
-          "type": "color",
-          "parent": "Primitives/Primitives",
-          "description": ""
-        },
-        "500": {
-          "value": "#679d90",
-          "type": "color",
-          "parent": "Primitives/Primitives",
-          "description": ""
-        },
-        "600": {
-          "value": "#477e70",
-          "type": "color",
-          "parent": "Primitives/Primitives",
-          "description": ""
-        },
-        "700": {
-          "value": "#275f51",
-          "type": "color",
-          "parent": "Primitives/Primitives",
-          "description": ""
-        },
-        "800": {
-          "value": "#074032",
-          "type": "color",
-          "parent": "Primitives/Primitives",
-          "description": ""
-        }
+  "colour": {
+    "green": {
+      "100": {
+        "value": "#e3edeb",
+        "type": "color",
+        "parent": "Primitives/Primitives",
+        "description": ""
       },
-      "neutral": {
-        "100": {
-          "value": "#fdfcfe",
-          "type": "color",
-          "parent": "Primitives/Primitives",
-          "description": ""
-        },
-        "800": {
-          "value": "#010200",
-          "type": "color",
-          "parent": "Primitives/Primitives",
-          "description": ""
-        }
+      "200": {
+        "value": "#cfe0dc",
+        "type": "color",
+        "parent": "Primitives/Primitives",
+        "description": ""
+      },
+      "300": {
+        "value": "#bbd3cd",
+        "type": "color",
+        "parent": "Primitives/Primitives",
+        "description": ""
+      },
+      "400": {
+        "value": "#91b8ae",
+        "type": "color",
+        "parent": "Primitives/Primitives",
+        "description": ""
+      },
+      "500": {
+        "value": "#679d90",
+        "type": "color",
+        "parent": "Primitives/Primitives",
+        "description": ""
+      },
+      "600": {
+        "value": "#477e70",
+        "type": "color",
+        "parent": "Primitives/Primitives",
+        "description": ""
+      },
+      "700": {
+        "value": "#275f51",
+        "type": "color",
+        "parent": "Primitives/Primitives",
+        "description": ""
+      },
+      "800": {
+        "value": "#074032",
+        "type": "color",
+        "parent": "Primitives/Primitives",
+        "description": ""
       }
+    },
+    "neutral": {
+      "100": {
+        "value": "#fdfcfe",
+        "type": "color",
+        "parent": "Primitives/Primitives",
+        "description": ""
+      },
+      "800": {
+        "value": "#010200",
+        "type": "color",
+        "parent": "Primitives/Primitives",
+        "description": ""
+      }
+    }
+  },
+  "primary": {
+    "value": "{colour.green.600}",
+    "type": "color",
+    "parent": "Tokens/Tokens",
+    "description": ""
+  },
+  "text": {
+    "primary": {
+      "value": "{colour.neutral.800}",
+      "type": "color",
+      "parent": "Tokens/Tokens",
+      "description": ""
+    },
+    "white": {
+      "value": "{colour.neutral.100}",
+      "type": "color",
+      "parent": "Tokens/Tokens",
+      "description": ""
+    }
+  },
+  "button": {
+    "primary": {
+      "value": "{primary}",
+      "type": "color",
+      "parent": "Tokens/Tokens",
+      "description": ""
+    }
+  },
+  "surface": {
+    "white": {
+      "value": "{colour.neutral.100}",
+      "type": "color",
+      "parent": "Tokens/Tokens",
+      "description": ""
+    },
+    "black": {
+      "value": "{colour.neutral.800}",
+      "type": "color",
+      "parent": "Tokens/Tokens",
+      "description": ""
     }
   }
 }
