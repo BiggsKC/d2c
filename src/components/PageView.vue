@@ -10,6 +10,9 @@ const count = ref(0)
 
 <template>
   <h1>Outside DS</h1>
+  <button class="button button-primary">
+    Button
+  </button>
 </template>
 
 <style scoped>
