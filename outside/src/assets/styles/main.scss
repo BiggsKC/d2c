@@ -5,18 +5,3 @@ html {
   color: var(--surface-black);
   padding: 50px;
 }
-
-.button {
-  border: 0;
-  cursor: pointer;
-  &-primary {
-    padding: 8px 12px;
-    background-color: var(--button-primary);
-    color: var(--text-white);
-    border-radius: 5px;
-    font-size: large;
-    &:hover {
-      background-color: var(--colour-green-500);
-    }
-  }
-}

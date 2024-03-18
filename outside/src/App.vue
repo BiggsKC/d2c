@@ -1,10 +1,9 @@
 <script setup>
-import PageView from './components/PageView.vue';
+import PageView from "./views/PageView.vue";
 </script>
 
 <template>
   <PageView />
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>

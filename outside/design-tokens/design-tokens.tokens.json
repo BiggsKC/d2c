@@ -1,0 +1,94 @@
+{
+  "variables": {
+    "primitives": {
+      "colour": {
+        "green": {
+          "100": {
+            "type": "color",
+            "value": "#e3edebff",
+            "blendMode": "normal"
+          },
+          "200": {
+            "type": "color",
+            "value": "#cfe0dcff",
+            "blendMode": "normal"
+          },
+          "300": {
+            "type": "color",
+            "value": "#bbd3cdff",
+            "blendMode": "normal"
+          },
+          "400": {
+            "type": "color",
+            "value": "#91b8aeff",
+            "blendMode": "normal"
+          },
+          "500": {
+            "type": "color",
+            "value": "#679d90ff",
+            "blendMode": "normal"
+          },
+          "600": {
+            "type": "color",
+            "value": "#477e70ff",
+            "blendMode": "normal"
+          },
+          "700": {
+            "type": "color",
+            "value": "#275f51ff",
+            "blendMode": "normal"
+          },
+          "800": {
+            "type": "color",
+            "value": "#074032ff",
+            "blendMode": "normal"
+          }
+        },
+        "neutral": {
+          "100": {
+            "type": "color",
+            "value": "#fdfcfeff",
+            "blendMode": "normal"
+          },
+          "800": {
+            "type": "color",
+            "value": "#010200ff",
+            "blendMode": "normal"
+          }
+        }
+      }
+    },
+    "tokens": {
+      "text": {
+        "primary": {
+          "type": "color",
+          "value": "{primitives.colour.neutral.800}"
+        },
+        "white": {
+          "type": "color",
+          "value": "{primitives.colour.neutral.100}"
+        }
+      },
+      "primary": {
+        "type": "color",
+        "value": "{primitives.colour.green.600}"
+      },
+      "button": {
+        "primary": {
+          "type": "color",
+          "value": "{tokens.primary}"
+        }
+      },
+      "surface": {
+        "white": {
+          "type": "color",
+          "value": "{primitives.colour.neutral.100}"
+        },
+        "black": {
+          "type": "color",
+          "value": "{primitives.colour.neutral.800}"
+        }
+      }
+    }
+  }
+}
